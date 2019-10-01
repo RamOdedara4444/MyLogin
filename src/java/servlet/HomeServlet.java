@@ -30,7 +30,7 @@ public class HomeServlet extends HttpServlet {
     String username = (String) session.getAttribute("username");
 
     if (username == null) {
-      response.sendRedirect("/login");//direct sending to the login servlet and it give syou the get method
+      response.sendRedirect("login");//direct sending to the login servlet and it give syou the get method
       return;
     }
 

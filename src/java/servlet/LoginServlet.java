@@ -49,7 +49,7 @@ public class LoginServlet extends HttpServlet {
         break;
       default:
         if (username != null) {
-          response.sendRedirect("/home");
+          response.sendRedirect("home");
           return;
         }
     }

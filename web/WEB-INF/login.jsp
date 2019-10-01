@@ -20,7 +20,7 @@
             <input type="submit" name="submit" value="Log in">
         </form>
         
-        <span >${error}</span>
+        <span >${e}</span>
                 <span>${success}</span>
     </body>
 </html>
